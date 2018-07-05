@@ -1,14 +1,14 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
 server:
   port: 11001
 spring:
   application:
     name: order
   datasource:
-    url: jdbc:mysql:106.15.188.160:3306/xiaomo?characterEncoding=utf8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
-    data-username: xiaomo
-    data-password: xiaomo
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8001/eureka/
+    url: jdbc:mysql://127.0.0.1:3306/xiaomo?characterEncoding=utf8&useSSL=false
+    password: root
+    username: root
